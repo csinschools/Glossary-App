@@ -1,0 +1,32 @@
+[[package]]
+category = "main"
+description = "A simple UI library wrapping the REMI library"
+name = "csinscapp"
+optional = false
+python-versions = "*"
+version = "0.0.3"
+
+[package.dependencies]
+remi = ">=2020.3.10"
+
+[[package]]
+category = "main"
+description = "Python REMote Interface library"
+name = "remi"
+optional = false
+python-versions = "*"
+version = "2020.3.10"
+
+[metadata]
+content-hash = "af08474decca1e2f53bbe0143aba5bb84427c616ebc4efc8d6c76dae0ad54051"
+python-versions = "^3.8"
+
+[metadata.files]
+csinscapp = [
+    {file = "csinscapp-0.0.3-py3-none-any.whl", hash = "sha256:17d68c501f2621b50cc884c889b99a000b896228de3a68661b9acb2051aeae7a"},
+    {file = "csinscapp-0.0.3.tar.gz", hash = "sha256:3e497f037149b80ca396f2d756710e2c1e62e996d42f95f2cdddedc975d05f5e"},
+]
+remi = [
+    {file = "remi-2020.3.10-py3-none-any.whl", hash = "sha256:73e833090298b446dcb4269ce9ab8078a080db235b4d33674a481c88cb4af1cc"},
+    {file = "remi-2020.3.10.tar.gz", hash = "sha256:4cb8eee398502f547b1ea5cf19304ce46bdc537a29b79066fda3e5d05130fdc4"},
+]
